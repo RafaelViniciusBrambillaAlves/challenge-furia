@@ -59,7 +59,7 @@ A estratégia **Know Your Fan** permite que organizações esportivas identifiqu
 ├── docker-compose.yml
 ├── requirements.txt
 └── README.md
-
+```
 
 ## 🚀 Como Rodar com Docker
 
@@ -72,11 +72,14 @@ A estratégia **Know Your Fan** permite que organizações esportivas identifiqu
 
 ```bash
 # 1. Clone o repositório
-git clone https://github.com/seu-usuario/know-your-fan-furia.git
-cd know-your-fan-furia
+git clone https://github.com/RafaelViniciusBrambillaAlves/challenge-furia
+cd challenge-furia
+```
 
 # 2. Suba os containers
+```bash
 docker-compose up --build
+```
 
 ## 🚀 Acesso ao Jupyter Notebook
 
@@ -97,14 +100,14 @@ Formulário interativo para coleta de:
 - Frequência de consumo de conteúdo e eventos de esports  
 - Produtos desejados e compras recentes  
 
-📷 *[INSERIR IMAGEM DO FORMULÁRIO AQUI]*
+![Formulario](img/form.png)
 
 ---
 
 ### 📄 Validação de Identidade com AI
 
 - Upload de documento e extração de informações via OCR com Tesseract  
-- Simulação de validação automática com base no CPF e nome extraído
+- Simulação de validação automática com base no CPF, nome extraído e Data de nascimento
 
 ---
 
@@ -160,7 +163,7 @@ O projeto utiliza **PostgreSQL** com as seguintes tabelas:
   Relaciona localizações e endereços aos usuários cadastrados.
 
 📷 Diagrama do banco de dados:  
-![Diagrama do Banco de Dados](img/imagem.png)
+![Diagrama do Banco de Dados](img/diagrama.png)
 
 ---
 
