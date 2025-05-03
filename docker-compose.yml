@@ -1,0 +1,42 @@
+version: '3.8'
+
+services:
+  jupyter:
+    image: jupyter/base-notebook:latest
+    container_name: jupyter
+    user: root 
+    ports:
+      - "8888:8888"
+    volumes:
+      - ./notebooks:/home/jovyan/work
+      - ./requirements.txt:/home/jovyan/work/requirements.txt
+      - ./dados:/home/jovyan/work/dados
+    environment:
+      - JUPYTER_TOKEN=secret
+      - TESSDATA_PREFIX=/usr/share/tesseract-ocr/4.00/tessdata
+    working_dir: /home/jovyan/work
+    command: >
+      bash -c "
+      apt-get update -q &&
+      apt-get install -yq tesseract-ocr tesseract-ocr-por libgl1-mesa-glx &&
+      chown -R jovyan:users /home/jovyan &&  
+      runuser -u jovyan -- 
+      pip install --user -r requirements.txt &&
+      export PATH=$$PATH:/home/jovyan/.local/bin &&
+      start-notebook.sh --NotebookApp.notebook_dir=/home/jovyan/work
+      "
+    depends_on:
+      - postgres
+
+  postgres:
+    image: postgres:14
+    container_name: postgres_db
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: admin
+      POSTGRES_DB: user_data
+    volumes:
+      - ./postgres_data:/var/lib/postgresql/data
+

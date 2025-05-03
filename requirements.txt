@@ -1,0 +1,11 @@
+psycopg2-binary
+ipywidgets
+pandas
+pytesseract 
+pillow
+pytesseract==0.3.10
+opencv-python-headless==4.9.0.80
+numpy==1.26.4
+torch
+ultralytics
+validate-docbr
