@@ -100,14 +100,14 @@ Formulário interativo para coleta de:
 - Frequência de consumo de conteúdo e eventos de esports  
 - Produtos desejados e compras recentes  
 
-📷 *[INSERIR IMAGEM DO FORMULÁRIO AQUI]*
+![Formulario](img/form.png)
 
 ---
 
 ### 📄 Validação de Identidade com AI
 
 - Upload de documento e extração de informações via OCR com Tesseract  
-- Simulação de validação automática com base no CPF e nome extraído
+- Simulação de validação automática com base no CPF, nome extraído e Data de nascimento
 
 ---
 
@@ -163,7 +163,7 @@ O projeto utiliza **PostgreSQL** com as seguintes tabelas:
   Relaciona localizações e endereços aos usuários cadastrados.
 
 📷 Diagrama do banco de dados:  
-![Diagrama do Banco de Dados](img/imagem.png)
+![Diagrama do Banco de Dados](img/diagrama.png)
 
 ---
 
