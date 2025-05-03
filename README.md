@@ -113,7 +113,7 @@ Formulário interativo para coleta de:
 
 ### 📱 Integração com Redes Sociais
 
-Simulação de vinculação com redes sociais como Instagram e Twitter.
+Simulação de vinculação de API com redes sociais como Instagram e Twitter.
 
 **Exemplo de retorno:**
 
@@ -171,7 +171,7 @@ O projeto utiliza **PostgreSQL** com as seguintes tabelas:
 
 Feito com dedicação por **[Seu Nome]**  
 📧 [rafael.brambilla3@gmail.com]  
-🔗 [https://www.linkedin.com/in/rafaelviniciusbrambillaalves/](https://www.linkedin.com/in/rafaelviniciusbrambillaalves/
+🔗 [https://www.linkedin.com/in/rafaelviniciusbrambillaalves/](https://www.linkedin.com/in/rafaelviniciusbrambillaalves/)
 
 ---
 
