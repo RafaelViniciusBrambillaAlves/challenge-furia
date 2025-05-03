@@ -59,7 +59,7 @@ A estratégia **Know Your Fan** permite que organizações esportivas identifiqu
 ├── docker-compose.yml
 ├── requirements.txt
 └── README.md
-
+```
 
 ## 🚀 Como Rodar com Docker
 
@@ -74,9 +74,12 @@ A estratégia **Know Your Fan** permite que organizações esportivas identifiqu
 # 1. Clone o repositório
 git clone https://github.com/seu-usuario/know-your-fan-furia.git
 cd know-your-fan-furia
+```
 
 # 2. Suba os containers
+```bash
 docker-compose up --build
+```
 
 ## 🚀 Acesso ao Jupyter Notebook
 
