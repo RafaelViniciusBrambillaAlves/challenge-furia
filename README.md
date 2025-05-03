@@ -21,7 +21,7 @@ A estratégia **Know Your Fan** permite que organizações esportivas identifiqu
 ✅ Banco de dados relacional PostgreSQL para armazenar os dados  
 ✅ Visualização de análises com gráficos interativos via Seaborn e Matplotlib  
 ✅ Interface em Jupyter Notebook (interativa e didática)  
-✅ Deploy local com Docker e persistência de dados  
+✅ Implementação local com Docker e persistência de dados  
 
 ---
 
@@ -29,11 +29,11 @@ A estratégia **Know Your Fan** permite que organizações esportivas identifiqu
 
 - Python 3.11
 - Jupyter Notebook
-- Docker & Docker Compose
-- PostgreSQL 14
+- Docker
+- PostgreSQL
 - Pandas, Seaborn, Matplotlib
 - Tesseract OCR
-- Simulação de AI para validação de identidade e redes sociais
+- Utilização de AI para validação de identidade e redes sociais
 
 ---
 
@@ -55,7 +55,7 @@ A estratégia **Know Your Fan** permite que organizações esportivas identifiqu
 │   ├── interactive_form.py        # Formulário com widgets
 │   └── social_media_updater.py   # Simulação de leitura de redes sociais
 ├── img
-│   └── diagrama_banco_de_dados.png  # ← [INSERIR AQUI DIAGRAMA DO BANCO]
+│   └── diagrama_banco_de_dados.png
 ├── docker-compose.yml
 ├── requirements.txt
 └── README.md
@@ -66,7 +66,6 @@ A estratégia **Know Your Fan** permite que organizações esportivas identifiqu
 ### ✅ Pré-requisitos
 
 - [Docker](https://www.docker.com/)
-- [Docker Compose](https://docs.docker.com/compose/)
 
 ### ⚙️ Passos
 
@@ -169,7 +168,7 @@ O projeto utiliza **PostgreSQL** com as seguintes tabelas:
 
 ## 📫 Contato
 
-Feito com dedicação por **[Seu Nome]**  
+Feito com dedicação por **Rafael Vinicius**  
 📧 [rafael.brambilla3@gmail.com]  
 🔗 [https://www.linkedin.com/in/rafaelviniciusbrambillaalves/](https://www.linkedin.com/in/rafaelviniciusbrambillaalves/)
 
