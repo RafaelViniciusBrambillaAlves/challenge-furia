@@ -72,8 +72,8 @@ A estratégia **Know Your Fan** permite que organizações esportivas identifiqu
 
 ```bash
 # 1. Clone o repositório
-git clone https://github.com/seu-usuario/know-your-fan-furia.git
-cd know-your-fan-furia
+git clone https://github.com/RafaelViniciusBrambillaAlves/challenge-furia
+cd challenge-furia
 ```
 
 # 2. Suba os containers
